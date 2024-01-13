@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    max-width: 1340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 69 px;
+    margin: 0 auto;
+}
+
+img{
+    margin-top: 19px ;
+}
+.navigation nav {
+   display: flex;
+    gap: 40px;
+}
+
+.navigation a{
+    font-family: Ubuntu,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(149, 117, 84, 1);
+}
+.navigation a:hover{
+   text-decoration: underline;
+}
+
+.room {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    grid-template-rows: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.room img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+   
+    
+}
+.room-description {
+     max-width: 100%;
+     width:  100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: baseline;
+     gap: 44px;
+}
+.room h3{
+    font-family: Ubuntu,sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+     color: rgba(149, 117, 84, 1);
+     justify-items: left;
+}
+
+.room-description p{
+    font-family: Ubuntu,sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.button{
+    font-family: Ubuntu,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 44px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(223, 170, 91, 1);
+    padding: 24px 52px 24px 56px;
+    border-radius: 10px;
+   
+}
+button a{
+    
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(223, 170, 91, 1);
+    padding: 24px 52px 24px 56px;
+    border-radius: 10px;
+    
+}
+
+
+.container {
+    max-width: 1320px;
+    
+    padding: 0px 0px 0px 61px;
+    margin-bottom: 90px;
+   
+}
+.container h2{
+    font-family: ubuntu,sans-serif;
+         font-size: 45px;
+         font-weight: 500;
+         line-height: 52px;
+         color: rgba(149, 117, 84, 1);
+         text-align: center;
+         
+
+}
+.room-description p{
+    color:  rgba(0, 0, 0, 1);
+    ;
+}
+.room:nth-child(2n) img {
+      order: 1;
+}
+.room:nth-child(2n) .room-description {
+    align-items: end;
+}
+.room:nth-child(2n) .room-description p{
+    text-align: right;
+}
+.room:last-child {
+    margin-bottom: 107px;
+}
+.rooms{
+    max-Width:1320px;
+    
+    margin-bottom: 107px;
+
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+   
+    
+}
+
+section {
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+}
+ .img {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+   
+ }
+
+
+
+
+
+footer{
+    margin-top: 70px;
+    background: rgb(13, 15, 10);
+    padding: 51px 0 159px;
+}
+.footer{
+    
+    max-width: 1340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 69 px;
+    margin: 0 auto;
+   
+}
+
+.footer img {
+    width: 154px;
+    height: 126px;
+    object-fit:cover;
+    margin-left: 25px;
+  
+}
+
+ .footer-nav { 
+    display: flex;
+    flex-direction:column ;
+    gap: 28px;
+   
+    
+}
+.footer nav a{
+    color:rgba(255, 255, 255, 1);
+    font-family: Ubuntu,sans-serif;
+    font-weight: 400 px;
+    padding-right: 200px;
+}
+
+footer a:hover,
+.footer-text{
+    color: rgba(149, 117, 84, 1)}
+
+
+.footer-text {
+    color: rgba(255, 255, 255, 1);
+    margin-right: 50px;
+}
+.footer-text a{    
+    display: block;
+    font-weight: 300;
+}
